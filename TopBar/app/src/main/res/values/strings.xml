@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TopBar</string>
+    <string name="share_icon_was_clicked">Share Icon was clicked.</string>
+    <string name="edit_icon_was_clicked">Edit Icon was clicked.</string>
+    <string name="setting_icon_was_clicked">Setting Icon was clicked.</string>
+    <string name="sign_out_icon_was_clicked">Sign-out Icon was clicked.</string>
+    <string name="navigation_icon_was_changed">Navigation Icon was Changed.</string>
+
+
+    <string-array name="countries">
+        <item>India</item>
+        <item>Japan</item>
+        <item>Bangladesh</item>
+        <item>England</item>
+        <item>Australia</item>
+        <item>Bernes</item>
+        <item>Guacamole</item>
+        <item>Amsterdam</item>
+        <item>Netherlands</item>
+        <item>Iceland</item>
+        <item>GreenLand</item>
+        <item>Alabama</item>
+        <item>Croatia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+</resources>
