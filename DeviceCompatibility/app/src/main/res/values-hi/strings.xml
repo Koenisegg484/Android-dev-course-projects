@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">डिवाइससंगतता</string>
     <string name="hello">इस दुनिया को नमस्कार</string>
     <string name="toastMessage">एक टोस्ट संदेश दिखाओ</string>
     <string name="toast">यह प्रदर्शन संदेश है।</string>

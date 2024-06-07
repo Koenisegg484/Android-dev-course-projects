@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="2dp"
+    android:background="@drawable/rounded_corners"
+    android:divider="@color/brown"
+    android:dividerPadding="20dp"
+    android:orientation="horizontal"
+    tools:context=".CustomListView">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:textAlignment="gravity" />
+
+    <TextView
+        android:id="@+id/serialNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/brown"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:minHeight="60dp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/brown"
+        android:textSize="25sp"
+        tools:ignore="RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@mipmap/icon_foreground" />
+</LinearLayout>

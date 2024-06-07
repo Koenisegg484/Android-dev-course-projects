@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DeviceCompatibility</string>
+    <string name="app_name" translatable="false">DeviceCompatibility</string>
     <string name="hello">Hello to this world</string>
     <string name="toastMessage">Show a toast Message</string>
     <string name="toast">This is the display message.</string>
