@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -27,6 +28,7 @@ public class QuizPage extends AppCompatActivity {
     TextView timer;
     TextView question;
     EditText answer;
+    ImageView failure;
     Button submit;
     Button nextQuestion;
     Random rnd = new Random();
@@ -56,6 +58,7 @@ public class QuizPage extends AppCompatActivity {
         score = findViewById(R.id.score);
         timer = findViewById(R.id.timer);
         life = findViewById(R.id.lives);
+        failure = findViewById(R.id.failure);
         question = findViewById(R.id.question);
         answer = findViewById(R.id.answer);
         submit = findViewById(R.id.submit);
@@ -76,6 +79,7 @@ public class QuizPage extends AppCompatActivity {
                 }else{
                     ulives -= 1;
                     life.setText(""+ulives);
+                    failure.setVisibility(View.VISIBLE);
                     question.setText("Wrong Answer\nFailure");
                 }
                 answer.setText("");
@@ -105,6 +109,7 @@ public class QuizPage extends AppCompatActivity {
     public void gameContinue(){
         num1 = rnd.nextInt(150);
         num2 = rnd.nextInt(150);
+        failure.setVisibility(View.INVISIBLE);
 
         Intent intent = getIntent();
         int opr = intent.getIntExtra("opr", 1);

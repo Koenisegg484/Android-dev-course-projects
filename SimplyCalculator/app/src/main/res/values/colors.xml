@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ggbridge">#E84E10</color>
+    <color name="gamboge">#F3981A</color>
+    <color name="hunyellow">#F9B24C</color>
+    <color name="sunset">#FCD198</color>
+</resources>

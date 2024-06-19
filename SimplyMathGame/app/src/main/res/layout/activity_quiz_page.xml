@@ -82,14 +82,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/failure"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/yellowish"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/failure" />
 
         <TextView
             android:id="@+id/question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp"
             android:layout_marginBottom="40dp"
             android:width="300dp"
             android:background="@color/yellowish"

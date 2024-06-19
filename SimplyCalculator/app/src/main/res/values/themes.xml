@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SimplyCalculator" parent="Theme.AppCompat.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/hunyellow</item>
+        <item name="colorPrimaryDark">@color/ggbridge</item>
+        <item name="colorAccent">@color/gamboge</item>
+    </style>
+    <style name="Theme.SimplyCalculator" parent="Base.Theme.SimplyCalculator" />
+</resources>
