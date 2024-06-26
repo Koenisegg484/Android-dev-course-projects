@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimplyNumberGuessingGame</string>
+    <string name="info">Please select a number of digits. The number of digits that I keep in mind and the number of digits you choose will be the same. And, remember you have only 10 rights.</string>
+    <string name="enter_your_guess_below">Enter your guess below</string>
+</resources>
