@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="false"
+    android:layout_gravity="center_horizontal"
+    android:background="#D85656"
+    android:orientation="vertical"
+    tools:context=".testFrag">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="The First Fragment"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Your Name !!!"
+        android:inputType="text"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Your Email !!!"
+        android:inputType="text"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit" />
+
+</LinearLayout>
