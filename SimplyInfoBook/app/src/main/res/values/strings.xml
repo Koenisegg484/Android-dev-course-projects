@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SimplyInfoBook</string>
+    <string name="unitedKingdom_name">
+        <b>United Kingdom</b>
+    </string>
+    <string name="unitedKingdom_desc">
+        <b>Capital</b>: \t London\n
+        <b>Largest city</b>>: \t London\n
+        51°30′N 0°7′W\n
+        <b>National language</b>>:\tEnglish\n\n
+
+        The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) or Britain,
+        is a country in Northwestern Europe, off the coast of the continental mainland.It comprises England, Scotland, Wales,
+        and Northern Ireland. \n\t\tThe UK includes the island of Great Britain, the north-eastern part of the island of Ireland, and
+        most of the smaller islands within the British Isles. Northern Ireland shares a land border with the Republic of Ireland;
+        otherwise, the United Kingdom is surrounded by the Atlantic Ocean, the North Sea, the English Channel, the Celtic Sea, and the Irish Sea.
+        The total area of the United Kingdom is 94,354 square miles (244,376 km2),12] with an estimated population of nearly 67.6 million people in 2022.
+        \n\t\tIn 1707, the Kingdom of England (which included Wales) and the Kingdom of Scotland united under the Treaty of Union to create the Kingdom
+        of Great Britain. The Acts of Union 1800 incorporated the Kingdom of Ireland to create the United Kingdom of Great Britain and Ireland in
+        1801. Most of Ireland seceded from the UK in 1922 as the Irish Free State, and the Royal and Parliamentary Titles Act 1927 created the present
+        name, the United Kingdom of Great Britain and Northern Ireland.
+    </string>
+</resources>
